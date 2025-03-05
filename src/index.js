@@ -1,5 +1,7 @@
 console.log("Start of Index.js");
 
+import "./css/styles.css";
+
 import { home } from "./home";
 
 home();
