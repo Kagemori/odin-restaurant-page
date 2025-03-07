@@ -1,15 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     display: flex;
     flex-direction: column;
 
     justify-content: center;
     align-items: center;
+
+    background-color: green;
 }
 
 nav {
     display: flex;
 
     justify-content: space-around;
+
+    padding: 5px;
+    margin-top: 20px;
 }
 
 nav button{
