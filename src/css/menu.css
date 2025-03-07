@@ -5,6 +5,8 @@
     justify-content: center;
 
     background-color: green;
+    border-radius: 20px;
+    margin-top: 20px;
 }
 
 #menu-title {

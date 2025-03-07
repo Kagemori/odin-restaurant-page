@@ -10,7 +10,10 @@ body {
     justify-content: center;
     align-items: center;
 
-    background-color: green;
+    background-image: url("../images/banner1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 nav {
