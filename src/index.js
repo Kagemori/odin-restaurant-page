@@ -2,7 +2,8 @@ console.log("Start of Index.js");
 
 import "./css/styles.css";
 
-import { home } from "./home";
+import { home } from "./home.js";
+import { menu } from "./menu.js";
 
 home();
 
@@ -16,4 +17,11 @@ navHome.addEventListener('click', () => {
         content.removeChild(content.lastElementChild);
     }
     home();
-})
+});
+
+navMenu.addEventListener('click', () => {
+    while(content.lastElementChild) {
+        content.removeChild(content.lastElementChild);
+    }
+    menu();
+});
