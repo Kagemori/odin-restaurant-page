@@ -4,6 +4,7 @@ import "./css/styles.css";
 
 import { home } from "./home.js";
 import { menu } from "./menu.js";
+import { contact } from "./contact.js";
 
 home();
 
@@ -24,4 +25,11 @@ navMenu.addEventListener('click', () => {
         content.removeChild(content.lastElementChild);
     }
     menu();
+});
+
+navContact.addEventListener('click', () => {
+    while(content.lastElementChild) {
+        content.removeChild(content.lastElementChild);
+    }
+    contact();
 });
